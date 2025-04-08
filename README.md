@@ -22,7 +22,7 @@ If you have a GPU on your local machine, follow these steps:
 
     # Or install packages manually if needed:
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-    pip install diffusers transformers safetensors pandas
+    pip install diffusers transformers safetensors pandas accelerate protobuf sentencepiece
     ```
 
 2. **Login to Hugging Face**
@@ -31,6 +31,9 @@ If you have a GPU on your local machine, follow these steps:
     pip install huggingface_hub
     huggingface-cli login
     ```
+3. **Access the model on Hugging Face**
+    
+    - Go to the https://huggingface.co/stabilityai/stable-diffusion-3.5-medium, accept the license to access the models.
 
 3. **Download Model**
 
